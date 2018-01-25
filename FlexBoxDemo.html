@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex bos demonstration</title>
+	<style type="text/css">
+		body{
+			background-color: #eaeaea;
+			margin: 0;
+		}
+		.paper{
+			background-color: white;
+			padding: 1em;
+			box-shadow: 5px 5px 5px grey;
+		}
+		.flex{
+			display: flex;
+			flex-direction: column;
+			height: 100vh;
+		}
+		.flex > section{
+			flex-grow: 1;
+			overflow: auto;
+		}
+		.flex > nav{
+			flex-grow: 0;
+		}
+		header.paper{
+			background-color: #745296;
+		}
+		nav.paper{
+			background-color: #8B9EB7;
+		}
+		section.paper{
+			background-color: #91F5AD;
+		}
+		.flex-row{
+			display: flex;
+		}
+		.flex-row>section {
+			flex-grow: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class='flex'>
+		<header class="paper"><h2>This is my header</h2></header>
+		<nav class="paper">This is nav bar</nav>
+		<section>
+			<h2 class="paper">This is one column</h2>
+			<section class="flex-row">
+				<section><h6 class="paper">This is two column</h6></section>
+				<section><h6 class="paper">This is two column</h6></section>
+			</section>
+			<section class="flex-row">
+				<section><h6 class="paper">This is three column</h6></section>
+				<section><h6 class="paper">This is three column</h6></section>
+				<section><h6 class="paper">This is three column</h6></section>
+			</section>
+		</section>
+		<footer class="paper">This is footer section</footer>
+	</div>
+</body>
+</html>
+
