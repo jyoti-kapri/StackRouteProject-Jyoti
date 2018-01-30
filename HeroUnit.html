@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hero Unit</title>
+	<style type="text/css">
+		body{
+			margin: 0
+		}
+		.hero-Unit{
+			height: 75vh;
+			width: 100vw;
+			position: realtive;
+		}
+		.hero-unit-caption{
+			position: absolute;
+			color: white;
+		}
+		.hero-unit-img{
+			height: 75vh;
+			width: 100vw;
+		}
+		.hero-unit-caption-container{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+			height: 75vh;
+			width: 100vw;
+		}
+		.hero-Unit-mask{
+			background-color: black;
+			position: absolute;
+			height: 75vh;
+			width: 100vw;
+			opacity: 0.5;
+		}
+		header{
+			background-color: navy;
+			display: flex;
+			align-items: : center;
+			color: white;
+			justify-content: space-between;
+			padding: 10px;
+		}
+		nav{
+			display: flex;
+		}
+		footer{
+			background-color: navy;
+			padding: 1em;
+			color: white;
+			text-align: center;
+		}
+		nav > div{
+			margin-left: 1em;
+		}
+		nav a{
+			color: white;
+			text-decoration: none;
+		}
+		.logo-img{
+			width: 50px;
+			height: 50px;
+			margin-right: 1em;
+		}
+		.logo-container{
+			display: flex;
+			align-items : center;
+		}
+		.hero-unit-img-div{
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<img class="logo-img" src="./Images/marketPlace.jpeg" alt="marketPlaceLogo">
+		<div>Circle Marketplace</div>
+		</div>
+		<nav>
+			<div><a href="">Home</a></div>
+			<div><a href="">About Us</a></div>
+			<div><a href="">Contact Us</a></div>
+		</nav>
+	</header>
+	<div class="hero-Unit">
+		<div class="hero-unit-img-div">
+			<img class="hero-unit-img" src="./Images/marketPlace.jpeg">
+		</div>
+		<div class="hero-Unit-mask">
+		</div>
+	
+	<div class="hero-unit-caption-container">
+		<div class="hero-unit-caption">
+			<h1>Welcome to Marketplace</h1>
+		</div>
+	</div>
+	</div>
+	<footer>Copyright 2017</footer>
+</body>
+</html>
