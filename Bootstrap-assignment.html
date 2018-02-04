@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<title>Bootstrap-assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row align-content-center justify-content-between">
+				<div class="col-auto logo">
+					<img src="food.png"><span>Food Paradise</span>
+				</div>
+				<div class="col-auto header-nav align-self-center">
+					<nav class="navbar navbar-expand-md navbar-light">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<nav class="navbar-nav">
+								<a class="nav-link" href="#">Contact Us</a>
+							    <a class="nav-link" href="#">About Us</a>
+							    <a class="nav-link" href="#">Home</a>
+							    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Hi ! Jyoti</a>
+							      <div class="dropdown-menu">
+							        <a class="dropdown-item" href="#">My details</a>
+							        <a class="dropdown-item" href="#">Log out</a>
+							      </div>
+							</nav>
+						</div>
+					    
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div class="jumbotron-fluid main-sec">
+<!-- 		<div class="img-div"><img src="./Pic-5.jpe"></div>	
+		<div class="img-mask"></div> -->
+		<div class="container-fluid section-1">
+		<div class="row">
+			<div class="col-lg-7 offset-lg-1 carousel-section">
+				<h3>There is no sincere love than the love of food</h3>
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					</ol>
+				    <div class="carousel-inner">
+					    <div class="carousel-item active">
+					        <img class="d-block w-100" src="./Pic-1.jpe" alt="First slide">
+					        <div class="carousel-caption d-none d-md-block">
+							    <h5>Lorepsun</h5>
+							    <p>Lorepsun</p>
+							</div>
+					    </div>
+					    <div class="carousel-item">
+					        <img class="d-block w-100" src="./Pic-2.jpe" alt="Second slide">
+					      	<div class="carousel-caption d-none d-md-block">
+							    <h5>Lorepsun</h5>
+							    <p>Lorepsun</p>
+							</div>
+					    </div>
+					    <div class="carousel-item">
+					        <img class="d-block w-100" src="./Pic-3.jpe" alt="Third slide">
+					        <div class="carousel-caption d-none d-md-block">
+							    <h5>Lorepsun</h5>
+							    <p>Lorepsun</p>
+							</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 menu-card-col">
+				<div class="card menu-card">
+				  <div id="accordion" class="menu-card">
+					  <div class="card">
+					    <div class="card-header" id="headingOne">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					          24 hours Delivery Service @ your service.
+					        </button>
+					      </h5>
+					    </div>
+
+					    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					        <div class="card-body">
+						      	<img class="card-img-top" src="Pic-4.jpe" alt="Card image cap">
+						        Whenever you feel like having a quick bite just take your phone and order.We will be at your door within half an hour!
+						    </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingTwo">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+					          Our Menu
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body">
+					        <ul class="list-group list-group-flush">
+							    <li class="list-group-item">HOME</li>
+							    <li class="list-group-item">BREAKFAST</li>
+							    <li class="list-group-item">LUNCH</li>
+							    <li class="list-group-item">SNACKS</li>
+							    <li class="list-group-item">DINNER</li>
+							    <li class="list-group-item">BEVERAGES<span class="badge badge-danger badge-secondary">New</span></li>
+							  </ul>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="card">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					          Customer Reviews<span class="badge badge-danger badge-secondary">New</span>
+					        </button>
+					      </h5>
+					    </div>
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="footer-section">Follow us @ Food Paradise</div>
+	
+	
+	
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
