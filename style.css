@@ -1,0 +1,80 @@
+.logo img{
+	width: 4em;
+    padding: .4em;
+}
+.main-sec{
+	overflow: auto;
+	height: 80vh;
+}
+.logo span{
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+header {
+    background-image: linear-gradient(139deg, #00C4CC 0%, #7D2AE8 100%);
+}
+header .nav-link{
+	color: white !important;
+}
+header .row{
+	color: white;
+}
+header .dropdown-menu{
+	right: 0;
+	left: auto;
+}.carousel-div{
+	text-align: center;
+}
+body .section-1
+{
+	padding: 1em;
+}
+.carousel-section{
+	text-align: center;
+	color: white;
+}
+.menu-card{
+	text-align: center;
+	color: rgb(208,1,9);
+}
+.img-div img{
+	height: 100vh;
+	width: 100vw;
+}
+.img-div{
+	position: absolute;
+}
+.img-mask{
+	background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+}
+.menu-card li{
+	padding: .25em;
+	font-weight: 500;
+}
+.menu-card-col{
+	padding: 2.5em;
+}
+.footer-section{
+	background-image: linear-gradient(139deg, #00C4CC 0%, #7D2AE8 100%);
+	padding: 0.5em;
+	text-align: center;	font-weight: 700;
+	font-size: 1.5em;
+	color: white;
+}
+.carousel-section h3{
+	color: #007bff;
+}
+@media only screen and (min-width: 1024px) {
+    .footer-section{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.carousel-section{
+	padding: 1em 0;
+}
+}
